@@ -5,9 +5,10 @@
  */
 
 const byte ledPin = 9; // номер выхода, подключаемого к светодиоду
+const byte aLedPin = 13 // номер выхода, отвечающего за светодиод arduino
 
 int ledState = LOW;    // храним состояние светодиода
-int aLedState = HIGH;
+int aLedState = HIGH;  // храним состояние светодиода arduino
 long prevMillis = 0;   // храним время последнего переключения
 
 long interval = 1000;  // храним интервал переключения состояния
